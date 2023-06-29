@@ -1,5 +1,3 @@
-import (./utils.js);
-
 function generateComment() {
   const comments = [
     'Все отлично!',
@@ -29,6 +27,7 @@ function generateComment() {
     name: generateRandomName()
   };
 }
+
 
 function generateRandomName() {
   const names = ['Алексей', 'Мария', 'Иван', 'Екатерина', 'Дмитрий', 'Анна'];
